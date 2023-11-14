@@ -1,0 +1,289 @@
+.posts {
+    width: 640px;
+    height: 0px;
+    position:relative;
+    top: 68px;
+    left: 570px;
+    z-index: 0;
+}
+
+.sendpost {
+    background-color: white;
+    width: 640px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #bfc0c0;
+    display: inline-block;
+}
+
+.sendpost input {
+    padding-left: 15px;
+    top: -17px;
+    display: inline-block;
+    background-color: #f6f7f8;
+    border: 1px solid #edeff1;
+    border-radius: 4px;
+    height: 34px;
+    width: 486px;
+    left: 2px;
+    position: relative;
+    outline: none;
+}
+
+.sendpost img {
+    position: relative;
+    left: 3px;
+    top: -4px;
+    display: inline-block;
+    height: 49.4px;
+    width: 49.4px;
+}
+
+.sendpost span {
+    left: 3px;
+    top: -10px;
+    width: 28px;
+    height: 28px;
+    border-radius: 3px;
+}
+
+.sendpost span:hover {
+    background-color: #edeff1;
+}
+
+.organise {
+    margin-top: 15px;
+    background-color: white;
+    width: 640px;
+    height: 56px;
+    border-radius: 4px;
+    border: 1px solid #bfc0c0;
+    display: inline-block;
+    color: #a1a1a1;
+}
+
+.organise span {
+    color: #a1a1a1;
+    display: inline-block;
+}
+
+#bl {
+    color: rgb(57, 136, 255);
+}
+
+.organise div {
+    top: 13px;
+    left: 15px;
+    margin-left: 5px;
+    position: relative;
+}
+
+.userposts {
+    margin-top: 15px;
+    background-color: white;
+    width: 640px;
+    height: 620px;
+    border-radius: 4px;
+    border: 1px solid #bfc0c0;
+    display: inline-block;
+    color: #a1a1a1;
+}
+
+.updownvotes {
+    display: inline-block;
+    width: 40px;
+    height: 100%;
+    background-color: #edeff1;
+    border-radius: 4px;
+}
+
+#top5 {
+    top: 7px;
+    display: inline-block;
+}
+
+.updownvotes span {
+    margin-left: 7px;
+    top: 0px;
+    position: relative;
+    display: inline-block;
+}
+
+#upvote {
+    top: 7px;
+    display: inline-block;
+}
+
+#upvote:hover {
+    color: rgb(255, 94, 0);
+    background-color: #e6e6e6;
+    border-radius: 3px;
+}
+
+#downvote:hover {
+    color: rgb(57, 136, 255);
+    background-color: #e6e6e6;
+    border-radius: 3px;
+}
+
+.updownvotes h2 {
+    display: inline-block;
+    color: black;
+    font-weight: 100;
+    font-size: 12px;
+    top: 0px;
+    left: 5px;
+}
+
+.repousertime {
+    top: -8px;
+    left: 2px;
+    display: inline-block;
+    position: relative;
+}
+
+.repousertime h2 {
+    display: inline-block;
+    color: black;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 0px;
+}
+
+.repousertime h3 {
+    top: -4px;
+    position: relative;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 3px;
+}
+
+.posttopic h2 {
+    font-weight: lighter;
+    color: black;
+    top: -20px;
+    font-size: 24px;
+    position: relative;
+    display: inline-block;
+}
+
+.posttopic span {
+    display: inline-block;
+    top: -2px;
+    position: relative;
+    font-size: 14px;
+    border: 1px solid red;
+    color: red;
+    border-radius: 5px;
+}
+
+.eag {
+    top: 60px;
+    width: 311px;
+    position: absolute;
+    left: 130px;
+}
+
+.ps4gta6 {
+    top: 60px;
+    width: 511px;
+    position: absolute;
+    left: 5px;
+}
+
+.bottomico {
+    position: absolute;
+    top: 582px;
+}
+
+.bottomico div {
+    display: inline-block;
+}
+
+.side {
+    z-index: 0;
+    background-color: white;
+    position: relative;
+    left: 1250px;
+    top: 70px;
+    width: 310px;
+    height: 260px;
+    border: 1px solid #bfc0c0;
+    border-radius: 4px;
+}
+
+#pers {
+    position: relative;
+    top: 20px;
+}
+
+.home {
+    width: 310px;
+    height: 260px;
+}
+
+.home img {
+    top: 15px;
+    left: 15px;
+    position: relative;
+    height: 68px;
+    width: 40px;
+}
+
+.home h2 {
+    color: black;
+    font-weight: 100;
+    top: -10px;
+    left: 15px;
+    position: relative;
+    display: inline;
+}
+
+.buta {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    left: 12px;
+}
+
+.buta a{
+    text-decoration: none;
+    top: 3px;
+    position: relative;
+}
+
+.crepo {
+    color: white;
+}
+
+.crepod {
+    border-radius: 1.25em;
+    margin-bottom: 5px;
+    width: 288px;
+    height: 32px;
+    background-color: rgb(57, 136, 255);
+}
+
+.crepod:hover {
+    background-color: rgb(15, 111, 255);
+}
+
+.creco {
+    color: rgb(57, 136, 255);
+}
+
+.crecod {
+    border-radius: 1.25em;
+    width: 286px;
+    height: 32px;
+    background-color: white;
+    border: 1px solid rgb(57, 136, 255);
+}
+
+.crecod:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+
+
