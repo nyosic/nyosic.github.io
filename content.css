@@ -1,0 +1,169 @@
+.welcome {
+    text-align: center;
+    color: white;
+    top:2%;
+    position: relative;
+    font-size: 38px;
+}
+
+.mccube1 {
+    height: 200px;
+    width: 200px;
+    background-color: #1f2421d8;
+    position: absolute;
+    z-index: 4;
+    transform: translate(-50%, -50%);
+    top: 300px;
+    border-radius: 15px;
+    box-shadow: #000000 5px 5px 15px;
+    transition: 0.5s;
+    left: 400px;
+    img {
+        transform: translate(-50%, -5%);
+        left: 50%;
+        position: relative;
+        height: 150px;
+        transition: 0.5s;
+    }    
+    a {
+        padding: 100px;
+        position: absolute;
+        z-index: 7;
+    }    
+    .mch1 {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top: 5px;
+        text-align: center;
+        transition: 0.5s;
+}
+}
+
+.mccube1:hover {
+    height: 190px;
+    width: 190px;
+    background-color: #1f2421d8;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 300px;
+    border-radius: 15px;
+    box-shadow: #000000 5px 5px 15px;
+    transition: 0.5s;
+    img {
+        transform: translate(-50%, -5%);
+        left: 50%;
+        position: relative;
+        height: 140px;
+        transition: 0.5s;
+    }
+    .mch1 {
+        font-size: 18px;
+        color: white;
+        position: relative;
+        top: 5px;
+        text-align: center;
+        transition: 0.5s;
+}
+}
+.mccube2 {
+    height: 200px;
+    visibility: visible;
+    width: 200px;
+    background-color: #1f2421d8;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: #000000 5px 5px 15px;
+    transition: 0.5s;
+    top: 520px;
+    left: 400px;
+    z-index: 4;
+    img {
+        transform: translate(-50%, -5%);
+        left: 50%;
+        position: relative;
+        height: 150px;
+        transition: 0.5s;
+    }
+    a {
+        padding: 100px;
+        position: absolute;
+        z-index: 7;
+    }     
+    .mch1 {
+        font-size: 20px;
+        color: white;
+        position: relative;
+        top: 5px;
+        text-align: center;
+        transition: 0.5s;
+}
+}
+
+.mccube2:hover {
+    height: 190px;
+    visibility: visible;
+    width: 190px;
+    background-color: #1f2421d8;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+    box-shadow: #000000 5px 5px 15px;
+    transition: 0.5s;
+    top: 520px;
+    img {
+        transform: translate(-50%, -5%);
+        left: 50%;
+        position: relative;
+        height: 140px;
+        transition: 0.5s;
+    }
+    .mch1 {
+        font-size: 18px;
+        color: white;
+        position: relative;
+        top: 5px;
+        text-align: center;
+        transition: 0.5s;
+}
+}
+
+.changelogcontainer {
+    position: relative;
+    width: 800px;
+    padding-bottom: 15px;
+    background-color: #1f2421d8;
+    transform: translate(-50%, -50%);
+    margin-bottom: 20px;
+    left: 50%;
+    top: 10%;
+    border-radius: 50px;
+    box-shadow: 8px 8px 15px black;
+    h1 {
+        text-align: center;
+        position: relative;
+        top: 15px;
+        color: white;
+    }
+    h2 {
+        padding-left: 15px;
+        color: white;
+    }
+    li {
+        color: white;
+        position: relative;
+        margin-left: 30px;
+    }
+    ol {
+        color: white;
+        position: relative;
+    };
+    .chdata {
+        text-align: center;
+        position: relative;
+        color: white;
+        font-size: 10px;
+        bottom: -20px;
+    }
+}
