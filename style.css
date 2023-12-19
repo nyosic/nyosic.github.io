@@ -16,6 +16,18 @@ body {
     scrollbar-width: none;
 }
 
+.notforthis {
+    width: 2000px;
+    height: 1900px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 50;
+    background-color: #1F2421;
+    h1 {
+        color: white;
+        text-align: center;
+    }
+}
 
 /* width */
 ::-webkit-scrollbar {
@@ -263,7 +275,6 @@ body {
     border-radius: 50px;
     transition: 0.5s;
     overflow: auto;
-    
 }
 
 .contentpanel::-webkit-scrollbar {
@@ -498,5 +509,18 @@ body {
         background-color: #1f2421c9;
         border-radius: 62.5px;
         transition: 0.5s;
+    }
+}
+
+@media all and (max-width: 720px) {
+    body {
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: #1F2421;
+    }
+    .notforthis {
+        visibility: visible;
+        
     }
 }
