@@ -11,14 +11,13 @@
     height: 200px;
     width: 200px;
     background-color: #1f2421d8;
-    position: absolute;
+    position: relative;
     z-index: 4;
     transform: translate(-50%, -50%);
-    top: 300px;
+    top: -1300px;
     border-radius: 15px;
     box-shadow: #000000 5px 5px 15px;
     transition: 0.5s;
-    left: 400px;
     img {
         transform: translate(-50%, -5%);
         left: 50%;
@@ -45,9 +44,8 @@
     height: 190px;
     width: 190px;
     background-color: #1f2421d8;
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
-    top: 300px;
     border-radius: 15px;
     box-shadow: #000000 5px 5px 15px;
     transition: 0.5s;
@@ -72,14 +70,13 @@
     visibility: visible;
     width: 200px;
     background-color: #1f2421d8;
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
     border-radius: 15px;
     box-shadow: #000000 5px 5px 15px;
     transition: 0.5s;
-    top: 520px;
-    left: 400px;
     z-index: 4;
+    top: -1300px;
     img {
         transform: translate(-50%, -5%);
         left: 50%;
@@ -107,12 +104,11 @@
     visibility: visible;
     width: 190px;
     background-color: #1f2421d8;
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
     border-radius: 15px;
     box-shadow: #000000 5px 5px 15px;
     transition: 0.5s;
-    top: 520px;
     img {
         transform: translate(-50%, -5%);
         left: 50%;
@@ -181,15 +177,8 @@
     .mccube1 {
         height: 250px;
         width: 250px;
-        background-color: #1f2421d8;
-        position: absolute;
-        z-index: 4;
-        transform: translate(-50%, -50%);
-        top: 375px;
-        border-radius: 15px;
-        box-shadow: #000000 5px 5px 15px;
+        position: relative;
         transition: 0.5s;
-        left: 500px;
         img {
             transform: translate(-50%, -5%);
             left: 50%;
@@ -215,12 +204,7 @@
     .mccube1:hover {
         height: 237.5px;
         width: 237.5px;
-        background-color: #1f2421d8;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        top: 375px;
-        border-radius: 15px;
-        box-shadow: #000000 5px 5px 15px;
+        position: relative;
         transition: 0.5s;
         img {
             transform: translate(-50%, -5%);
@@ -240,17 +224,9 @@
     }
     .mccube2 {
         height: 250px;
-        visibility: visible;
         width: 250px;
-        background-color: #1f2421d8;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        border-radius: 15px;
-        box-shadow: #000000 5px 5px 15px;
+        position: relative;
         transition: 0.5s;
-        top: 650px;
-        left: 500px;
-        z-index: 4;
         img {
             transform: translate(-50%, -5%);
             left: 50%;
@@ -275,15 +251,9 @@
     
     .mccube2:hover {
         height: 237.5px;
-        visibility: visible;
         width: 237.5px;
-        background-color: #1f2421d8;
-        position: absolute;
-        transform: translate(-50%, -50%);
-        border-radius: 15px;
-        box-shadow: #000000 5px 5px 15px;
+        position: relative;
         transition: 0.5s;
-        top: 650px;
         img {
             transform: translate(-50%, -5%);
             left: 50%;

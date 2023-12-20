@@ -274,28 +274,37 @@ body {
     background-color: #1f2421c9;
     border-radius: 50px;
     transition: 0.5s;
-    overflow: auto;
 }
 
-.contentpanel::-webkit-scrollbar {
+.scroll {
+    width: 850px;
+    height: 1400px;
+    transform: translate(-50%, -35%);
+    left: 50%;
+    top: 28%;
+    overflow: auto;
+    position: relative;
+}
+
+.scroll::-webkit-scrollbar {
     width: 10px;
     transition: 0.5s;
   }
   
   /* Track */
-.contentpanel::-webkit-scrollbar-track {
+  .scroll::-webkit-scrollbar-track {
     background: #1F2421;
     transition: 0.5s;
   }
   
   /* Handle */
-.contentpanel::-webkit-scrollbar-thumb {
+  .scroll::-webkit-scrollbar-thumb {
     background: #ffffff;
     transition: 0.5s;
   }
   
   /* Handle on hover */
-.contentpanel::-webkit-scrollbar-thumb:hover {
+  .scroll::-webkit-scrollbar-thumb:hover {
     background: #1F2421;
     transition: 0.5s;
   }
@@ -510,9 +519,19 @@ body {
         border-radius: 62.5px;
         transition: 0.5s;
     }
+
+    .scroll {
+        width: 1050px;
+        height: 1400px;
+        transform: translate(-50%, -35%);
+        left: 50%;
+        top: 24%;
+        overflow: auto;
+        position: relative;
+    }
 }
 
-@media all and (max-width: 720px) {
+@media all and (max-width: 1300px) {
     body {
         width: 100%;
         height: 100%;
