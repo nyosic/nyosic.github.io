@@ -283,7 +283,7 @@ body {
     height: 1400px;
     transform: translate(-50%, -35%);
     left: 50%;
-    top: 28%;
+    top: 32%;
     overflow: auto;
     position: relative;
     transition: 0.5s;
@@ -530,7 +530,7 @@ body {
         height: 1400px;
         transform: translate(-50%, -35%);
         left: 50%;
-        top: 24%;
+        top: 32%;
         overflow: auto;
         position: relative;
         transition: 0.5s;
