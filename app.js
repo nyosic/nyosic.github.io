@@ -9,7 +9,7 @@ window.addEventListener('DOMContentLoaded', () => {
         logoSpan.forEach((span, idx)=>{
             setTimeout(()=>{
                 span.classList.add('active');
-            }, (idx + 1) * 350)
+            }, (idx + 1) * 175)
         });
 
         setTimeout(()=>{
@@ -18,13 +18,13 @@ window.addEventListener('DOMContentLoaded', () => {
                 setTimeout(()=>{
                     span.classList.remove('active');
                     span.classList.add('fade');
-                }, (idx + 1) * 350)
+                }, (idx + 1) * 175)
             })
-        }, 2900);
+        }, 1450);
 
         setTimeout(()=>{
             intro.style.top = '-100vh';
-        }, 5400)
+        }, 2700)
 
         console.log('working...');
 })
