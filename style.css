@@ -1,26 +1,220 @@
-body {
-    margin: 0px;
-    background-color: rgb(43, 43, 43);
+* {
+    margin: 0%;
+    padding: 0%;
 }
 
-.logo {
+body {
+    background-color: #ffffff;
+    background-image: url(anim.gif);
+    background-size: cover;
+    height: auto;
+    width: auto;
+    overflow: hidden;
+    transition: 0.5s;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-width: 0px
+}
+
+.card {
+    width: 500px;
+    height: 600px;
+    background-color: #0000009a;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    position: relative;
+    transform: translate(-50%, 0%);
+    margin-left: 50%;
+    margin-top: 10%;
+    border-radius: 25px;
+}
+
+.pfp-container h1 {
+    text-align: center;
+    top: 5%;
+    position: relative;
+    margin: 0px;
+    color: #ffffff;
+    font-family:sans-serif;
+}
+
+.lamb {
+    position: absolute;
+    top: -22.5%;
+    left: 80%;
+    height: 30%;
+     width: 30%;
+}
+
+.lamb2 {
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    bottom: -7.5%;
+}
+
+.buttons {
+    width: 300px;
+    height: 400px;
+    transform: translate(-50%, -50%);
+    position: relative;
+    left: 50%;
+    top: 25%;
+}
+
+.buttons a {
+    padding: 10px 100px 10px 100px;
+    background-color: rgba(0, 0, 0, 0.507);
+    position: relative;
+    display: block;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 50%;
-    position: fixed;
-    width: 300px;
-    height: 250px;
-}
-
-.logoheader {
-    font-family: 'Courier New', Courier, monospace;
+    top: 5%;
+    margin-top: 5%;
+    text-decoration: none;
     color: white;
     text-align: center;
+    border-radius: 15px;
+    transition: 0.35s;
+    border-style: solid;
+    border-width: 1px;
 }
 
-.logoheader a {
-    color: yellow;
-    text-decoration: none;
-    font-size: 20px;
-    font-weight: bold;
+.buttons a:hover {
+    background-color: rgba(255, 255, 255, 0.507);
+    color: black;
+    transition: 0.35s;
+}
+
+.pfp {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 0px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+    border-radius: 50px;
+}
+
+.pfp-container {
+    width: 200px;
+    height: 200px;
+    transform: translate(-50%, 0%);
+    position: relative;
+    top: 1%;
+    left: 50%;
+}
+
+@media (max-width: 980px) {
+    * {
+        margin: 0%;
+        padding: 0%;
+    }
+    
+    body {
+        background-color: #ffffff;
+        background-image: url(anim.gif);
+        background-size: 4700px;
+        background-position: 80%;
+        height: auto;
+        width: auto;
+        overflow: hidden;
+        transition: 0.5s;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+    .card {
+        width: 800px;
+        height: 1200px;
+        background-color: #0000009a;
+        border-style: solid;
+        border-color: white;
+        border-width: 3px;
+        position: relative;
+        transform: translate(-50%, 0%);
+        margin-left: 50%;
+        margin-top: 40%;
+        border-radius: 25px;
+    }
+    
+    .pfp-container h1 {
+        text-align: center;
+        top: -15%;
+        position: relative;
+        font-size: 48px;
+        margin: 0px;
+        color: #ffffff;
+        font-family:sans-serif;
+    }
+    
+    .lamb {
+        position: absolute;
+        top: -33%;
+        left: 50%;
+        height: 45%;
+        width: 60%;
+    }
+    
+    .lamb2 {
+        position: absolute;
+        width: 60%;
+        height: 45%;
+        bottom: -11.3%;
+    }
+    
+    .buttons {
+        width: 600px;
+        height: 400px;
+        transform: translate(-50%, -50%);
+        position: relative;
+        left: 50%;
+        top: 25%;
+    }
+    
+    .buttons a {
+        padding: 45px 300px 45px 280px;
+        background-color: rgba(0, 0, 0, 0.507);
+        position: relative;
+        display: block;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 25%;
+        font-size: 48px;
+        margin-top: 5%;
+        text-decoration: none;
+        color: white;
+        text-align: center;
+        border-radius: 15px;
+        transition: 0.35s;
+        border-style: solid;
+        border-width: 3px;
+    }
+    
+    .buttons a:hover {
+        background-color: rgba(255, 255, 255, 0.507);
+        color: black;
+        transition: 0.35s;
+    }
+    
+    .pfp {
+        position: relative;
+        width: 250px;
+        height: 250px;
+        margin: 0px;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        top: 40%;
+        border-radius: 125px;
+    }
+    
+    .pfp-container {
+        width: 200px;
+        height: 200px;
+        transform: translate(-50%, 0%);
+        position: relative;
+        top: 5%;
+        left: 50%;
+    }
+    
 }
