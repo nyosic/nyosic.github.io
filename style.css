@@ -63,17 +63,17 @@ body {
 }
 
 .buttons a {
-    padding: 10px 100px 10px 100px;
+    padding: 30px 200px 30px 175px;
     background-color: rgba(0, 0, 0, 0.507);
     position: relative;
     display: block;
     transform: translate(-50%, -50%);
     left: 50%;
-    top: 5%;
+    top: 12.5%;
     margin-top: 5%;
+    font-size: 32px;
     text-decoration: none;
     color: white;
-    text-align: center;
     border-radius: 15px;
     transition: 0.35s;
     border-style: solid;
@@ -173,7 +173,7 @@ body {
     }
     
     .buttons a {
-        padding: 45px 300px 45px 280px;
+        padding: 45px 300px 45px 275px;
         background-color: rgba(0, 0, 0, 0.507);
         position: relative;
         display: block;
